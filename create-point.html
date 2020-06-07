@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar um ponto de coleta</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/create-point.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
+</head>
+<body>
+<div id="page-create-point">
+    
+        <header>
+            <img src="/assets/icones/logo.svg" alt="logomarca">
+            
+            <a href="http://google.com.br">
+                <span></span> 
+                voltar para home
+             </a>
+        </header>
+        <form action=""></form>
+        <h1>Cadastro do ponto de coleta</h1>
+        <fieldset>
+            <legend>
+                <h2>Dado da entidade</h2>
+            </legend>
+            <div class="field">
+                <label for="name"> nome da entidade</label>
+                <input type="text" name="name">
+            </div>
+            <div class="field-group">
+                <div class="field">
+                    <label for="adress">endereço</label>
+                    <inpput type="text" name="adress">
+                </div>
+                <div class="field">
+                    <label for="adress2">numero/complemento</label>
+                    <inpput type="text" name="adress2">
+                </div>
+                
+
+            </div>
+            <div class="field-group">
+                <div class="field">
+                    <label for="state">estado</label>
+                    <select name="uf"></select>
+                    <option value=""> selecione o estado</option>
+                </div>
+                <div class="field">
+                    <label for="city">cidade</label>
+                    <select name="city"disabled>
+                    <option value=""> selecione a cidade</option>
+                </div>
+                
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>itens de coleta</h2>
+
+        </legend>
+            
+
+        </fieldset>
+        <button type="submit">cadastrar ponto de coleta</button>
+</div>
+</body>
+</html>
